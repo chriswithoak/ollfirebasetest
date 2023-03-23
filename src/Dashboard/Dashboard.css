@@ -1,0 +1,57 @@
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../sample.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+  }
+  .dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #0B3525;
+  }
+  .dashboard div {
+    margin-top: 7px;
+  }
+  .topnav {
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(239,239,239,0.8855917366946778) 0%, rgba(217,218,222,1) 100%);
+  }
+
+  .welcome {
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #0B3525;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #0B3525;
+    color: white;
+  }
